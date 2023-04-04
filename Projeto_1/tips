@@ -1,0 +1,6 @@
+pytest -> Run all tests
+pytest -v -> Run verbose mode, with more details
+pytest -m mark1 -> Run tests marked
+pytest -m "mark1 or mark2" -> Run all tests marked as mark1 or marked as mark2
+pytest -m "mark1 and regression" -> Run only tests marked with both mark1 and regression at same time
+pytest -m "not mark1" -> Run only tests that has not the mark1
